@@ -10,9 +10,7 @@ const Header = () => {
   console.log('user', user);
   return (
     <nav className='nav-menu container'>
-      <div className='logo'>
-        <Link to='/'>NOMAD</Link>
-      </div>
+     
       <ul>
         <li>
           <Link to='/'>

@@ -8,8 +8,6 @@ const HomePage = () => {
   return (
     <>
       <Layout>
-        <Hero />
-        <MainSection />
         <FeaturedCollection />
       </Layout>
     </>

@@ -6,6 +6,7 @@ import queryString from 'query-string'
 import { fetchFromAPI } from '../../../helpers';
 
 const Success = ({ history, location }) => {
+  
 
   const { clearCart, cartItems } = useContext(CartContext);
   const [session, setSession] = useState()
